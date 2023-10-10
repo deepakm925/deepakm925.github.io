@@ -18,7 +18,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 exclude:
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
   - Gemfile
   - Gemfile.lock
   - build-in-docker.sh
   - README.md
+  - any_additional_item # any user-specific listing goes at the end
