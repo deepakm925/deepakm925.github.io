@@ -16,7 +16,7 @@ header:
 
 sections:
   - type: call-to-action.html
-    section_id: ABOUT DEEPAK
+    section_id: about
     background_style: bg-primary
     title: Who is Deepak Mahtani?
     text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
@@ -26,7 +26,7 @@ sections:
         class: btn-light
 
   - type: services.html
-    section_id: Skills & Software
+    section_id: services
     #background_style: bg-info
     title: At Your Service
     services:
@@ -143,7 +143,7 @@ sections:
           and future plans to them. As a result , interested people joined us!
 
   - type: contact.html
-    section_id: contact info
+    section_id: contacts
     title: Let's Get In Touch!
     text: >-
       Ready to start your next project with us? Give us a call or send us an email
