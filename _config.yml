@@ -1,6 +1,6 @@
 # Site settings
-title: WELCOME TO DEEPAK'S DIGITAL WORLD OF DATA!
-description: WELCOME TO MY DIGITAL WORLD OF DATA!
+title: HOME PAGE!
+description:" "
 repository: deepakm925/deepakm925.github.io
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://deepakm925.github.io"

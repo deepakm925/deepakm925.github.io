@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets"
+    "\\assets",
+    "\\assets\\img",
+    "\\assets\\img\\my-images",
+    "\\_layouts"
   ],
-  "SelectedNode": "\\index.md",
+  "SelectedNode": "\\assets\\img\\my-images\\deepak.jpg",
   "PreviewInSolutionExplorer": false
 }

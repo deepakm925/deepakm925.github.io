@@ -3,7 +3,7 @@
 # However on github-pages custom plugins are disabled, and the script doesn't
 # run. So please, fill in any custom menu entry here.
 header:
-- title: About Deepak
+- title: Menu-Options
   url: /#about
 - title: Software & Skills
   url: /#services

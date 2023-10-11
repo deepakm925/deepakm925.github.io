@@ -1,31 +1,17 @@
 <section class="page-section {{ section.background_style }}" id="{{ section.section_id }}">
-  <div class="container px-7 px-lg-7">
-    <h2 class="text-center mt-0">{{ section.title }}</h2>
-    <hr class="divider border border-primary border-2">
-    <div class="row gx-4 gx-lg-5 justify-content-center">
-      <!-- {#% assign cols = section.size | at_most: 4 %#} -->
-      {% assign cols = section.size %}
-      {% if cols > 4 %}
-        {% assign cols = 4 %}
-      {% endif %}
-
-      {% assign colsL = 12 | divided_by: cols %}
-      {% assign colsM = colsL | times: 2 %}
-
-      {% for service in section.services %}
-      <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
-        <div class="mt-5">
-          <div class="mb-2"><i class="{{ service.icon }} bi text-primary" style="font-size: 64px;"></i></div>
-          <h3 class="h4 mb-2">{{ service.title }}</h3>
-          <div class="text-muted mb-0">
-            {{ service.text | markdownify }}
-            {% if service.url %}
-              <a href="{{ service.url }}"><i class="bi bi-link"></i></a>
-            {% endif %}
-          </div>
+    <div class="container px-4 px-lg-5 text-center">
+        <h2 class="text-center mt-0">{{ section.title }}</h2>
+        <hr class="divider border border-primary border-2">
+        <div class="row justify-content-center">
+            {% for member in section.members %}
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="member-box">
+                    <img class="text-primary" src="{{ member.image }}" alt="{{ member.title }}">
+                    <h3 class="h4 mb-2">{{ member.title }}</h3>
+                    <p class="text-white-50 mb-0">{{ member.text }}</p>
+                </div>
+            </div>
+            {% endfor %}
         </div>
-      </div>
-      {% endfor %}
     </div>
-  </div>
 </section>

@@ -18,7 +18,7 @@ sections:
     
   - type: call-to-action.html
     section_id: about
-    background_style: bg-primary
+    background_style: bg-dark
     title: MENU OPTIONS
     text: ""
     actions:
@@ -36,14 +36,36 @@ sections:
     members:
       - title: Deepak MAHTANI 
         image: assets/img/my-images/deepak.jpg
-        text: HI my name is Deepak I am a coder!
-        url: '#'
-        class: btn-light
+        text: HI my name is Deepak I am a coder! 
+        url: '#' 
 
-
-  - type: services.html
+  - type: members.html
     section_id: services
-    #background_style: bg-info
-    title: Software and Skills
-
+    title: SOFTWARE AND SKILLS
+    background_style: bg-big-info text-black
+    members:
+      - title: PYTHON
+        image: assets/img/my-images/python-logo.png
+        url: '#'
+      - title: SQL
+        image: assets/img/my-images/sql-logo.png
+        url: '#'
+      - title: DAX
+        image: assets/img/my-images/dax-logo.png
+        url: '#'
+      - title: ANACONDA-NAVIGATOR
+        image: assets/img/my-images/anaconda-navigator-logo.webp
+        url: '#'
+      - title: SPYDER-IDE
+        image: assets/img/my-images/spyder-logo.png
+        url: '#'
+      - title: JUPYTER NOTEBOOK
+        image: assets/img/my-images/jupyter-logo.png
+        url: '#'
+      - title: MICROSOFT POWER-BI
+        image: assets/img/my-images/powerbi-logo.png
+        url: '#'
+      - title: MICRSOFT VISUAL-STUDIO
+        image: assets/img/my-images/visual-studio.png
+        url: '#'
 ---
