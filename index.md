@@ -1,20 +1,24 @@
 ---
 layout: home
 header:
-  title: PYTHON DEVELOPER
+  title: DEEPAK MAHTANI
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    PYTHON DEVELOPER |
+
+    DATA ANALYST & SCIENIST |
+    
+    POWER BI ANALYST
+    
   action: # action button is optional
-    label: Find Out More
+    label: WHO IS DEEPAK?
     url: '#about'
 
 
 sections:
   - type: call-to-action.html
-    section_id: about
+    section_id: ABOUT DEEPAK
     background_style: bg-primary
-    title: We've got what you need!
+    title: Who is Deepak Mahtani?
     text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
     actions:
       - title: Get Started!
@@ -22,7 +26,7 @@ sections:
         class: btn-light
 
   - type: services.html
-    section_id: services
+    section_id: Skills & Software
     #background_style: bg-info
     title: At Your Service
     services:
@@ -139,7 +143,7 @@ sections:
           and future plans to them. As a result , interested people joined us!
 
   - type: contact.html
-    section_id: contacts
+    section_id: contact info
     title: Let's Get In Touch!
     text: >-
       Ready to start your next project with us? Give us a call or send us an email
