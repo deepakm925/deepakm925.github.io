@@ -10,25 +10,42 @@ header:
     POWER BI ANALYST
     
   action: # action button is optional
-    label: WHO IS DEEPAK?
+    label: GO TO SITE MENU OPTIONS
     url: '#about'
 
 
 sections:
+    
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: Who is Deepak Mahtani?
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: MENU OPTIONS
+    text: ""
     actions:
-      - title: Get Started!
-        url: '#page-top'
+      - title: ABOUT DEEPAK!
+        url: '#members'
         class: btn-light
+      - title: Software and Skills
+        url: 'services'
+        class: btn-light
+  
+  - type: members.html
+    section_id: members
+    title: ABOUT DEEPAK
+    background_style: bg-info text-white
+    members:
+      - title: Deepak MAHTANI 
+        image: assets/img/my-images/deepak.jpg
+        text: HI my name is Deepak I am a coder!
+        url: '#'
+        class: btn-light
+
 
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: Software and Skills
+
     services:
       - title: Sturdy Templates
         text: Our templates are updated regularly so they don't break.
@@ -91,36 +108,7 @@ sections:
         url: https://startbootstrap.com/themes/creative/
         class: btn-light
 
-  - type: members.html
-    section_id: members
-    title: Our Crew!
-    background_style: bg-info text-white
-    members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
-
+ 
   - type: timeline.html
     section_id: timeline
     title: Major Achievements!
@@ -160,5 +148,4 @@ sections:
     - title: Facebook
       icon: bi-facebook
       url: '#'
-
 ---
