@@ -26,7 +26,7 @@ sections:
         url: '#members'
         class: btn-light
       - title: Software and Skills
-        url: '#services'
+        url: 'services'
         class: btn-light
   
   - type: members.html

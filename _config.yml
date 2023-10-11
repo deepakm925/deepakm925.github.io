@@ -1,6 +1,6 @@
 # Site settings
 title: HOME PAGE!
-description:" "
+description: HOME PAGE!
 repository: deepakm925/deepakm925.github.io
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://deepakm925.github.io"
