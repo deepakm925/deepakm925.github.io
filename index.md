@@ -69,7 +69,7 @@ sections:
         url: '#'
       - title: MICROSOFT POWER-BI
         image: assets/img/my-images/powerbi-logo.png
-        url: '#'
+        url: ''
       - title: MICRSOFT VISUAL-STUDIO
         image: assets/img/my-images/visual-studio.png
         url: '#'
@@ -81,32 +81,9 @@ sections:
     background_style: bg-dark
     projects:
       - title: Project 1
-        text: This is a very short project description.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
-        icon: 1.jpg
-        url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
-        url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
-        url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
-        url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
-        url: '#'
+        text: no text
+        icon: python-port.webp 
+        url: '#/links.md'
 
 
 ---
